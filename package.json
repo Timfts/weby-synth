@@ -1,0 +1,29 @@
+{
+  "name": "weby-synth",
+  "version": "1.0.0",
+  "description": "A basic front-end synth",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc src/assembly/index.ts --target debug",
+    "asbuild:optimized": "asc src/assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timfts/weby-synth.git"
+  },
+  "author": "Tim fontes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timfts/weby-synth/issues"
+  },
+  "homepage": "https://github.com/Timfts/weby-synth#readme",
+  "devDependencies": {
+    "assemblyscript": "^0.18.16",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "@assemblyscript/loader": "^0.18.16"
+  }
+}
