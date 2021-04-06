@@ -35,4 +35,4 @@ class MockComponent extends Component {
   }
 }
 
-export default MockComponent;
+window.customElements.define("mock-component", MockComponent)
