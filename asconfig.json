@@ -1,14 +1,11 @@
 {
+  "entries": [
+    "src/assembly/index.ts"
+  ],
   "targets": {
-    "debug": {
-      "binaryFile": "build/untouched.wasm",
-      "textFile": "build/untouched.wat",
-      "sourceMap": true,
-      "debug": true
-    },
     "release": {
-      "binaryFile": "build/optimized.wasm",
-      "textFile": "build/optimized.wat",
+      "binaryFile": "src/assembly/build/optimized.wasm",
+      "textFile": "src/assembly/build/optimized.wat",
       "sourceMap": true,
       "optimizeLevel": 3,
       "shrinkLevel": 1,

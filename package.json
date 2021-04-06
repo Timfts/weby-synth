@@ -4,10 +4,8 @@
   "description": "A basic front-end synth",
   "main": "index.js",
   "scripts": {
-    "test": "node tests",
-    "asbuild:untouched": "asc src/assembly/index.ts --target debug",
-    "asbuild:optimized": "asc src/assembly/index.ts --target release",
-    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+    "dev": "vite serve src/",
+    "asbuild": "asc src/assembly/index.ts --target release"
   },
   "repository": {
     "type": "git",
@@ -21,9 +19,13 @@
   "homepage": "https://github.com/Timfts/weby-synth#readme",
   "devDependencies": {
     "assemblyscript": "^0.18.16",
-    "parcel": "^2.0.0-beta.2"
+    "vite": "^2.1.5"
   },
   "dependencies": {
-    "@assemblyscript/loader": "^0.18.16"
+    "@assemblyscript/loader": "^0.18.16",
+    "date-fns": "^2.19.0",
+    "hybrids": "^5.1.0",
+    "lit-element": "^2.4.0",
+    "rollup-plugin-assemblyscript": "^2.0.0"
   }
 }
