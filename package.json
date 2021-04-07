@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@assemblyscript/loader": "^0.18.16",
+    "@rharel/music-note-utils": "^1.0.1",
     "date-fns": "^2.19.0",
     "hybrids": "^5.1.0",
     "lit-element": "^2.4.0",
