@@ -4,8 +4,10 @@
   "description": "A basic front-end synth",
   "main": "index.js",
   "scripts": {
-    "dev": "vite serve src/",
-    "asbuild": "asc src/assembly/index.ts --target release"
+    "dev": "vite serve",
+    "asbuild": "asc src/assembly/index.ts --target release",
+    "build": "vite build",
+    "s": "vite -h"
   },
   "repository": {
     "type": "git",
