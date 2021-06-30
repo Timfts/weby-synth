@@ -1,4 +1,3 @@
-import  "./components/mock";
 import "./components/js-synth"
 
 import init from "../assembly/build/optimized.wasm";

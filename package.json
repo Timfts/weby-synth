@@ -4,7 +4,9 @@
   "description": "A basic front-end synth",
   "main": "index.js",
   "scripts": {
-    "dev": "vite serve src/",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "asbuild": "asc src/assembly/index.ts --target release"
   },
   "repository": {
@@ -23,10 +25,12 @@
   },
   "dependencies": {
     "@assemblyscript/loader": "^0.18.16",
+    "@open-wc/scoped-elements": "^2.0.0-next.4",
     "@rharel/music-note-utils": "^1.0.1",
     "date-fns": "^2.19.0",
     "hybrids": "^5.1.0",
     "lit-element": "^2.4.0",
+    "popmotion": "^9.4.0",
     "rollup-plugin-assemblyscript": "^2.0.0"
   }
 }
