@@ -3,7 +3,6 @@ import { Note } from "@rharel/music-note-utils";
 import styles from "./styles";
 
 
-
 export default class FirstSynth extends LitElement {
   static tagName = "first-synth"
   static styles = styles;
