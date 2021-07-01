@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Timfts/weby-synth#readme",
   "devDependencies": {
     "assemblyscript": "^0.18.16",
+    "sass": "^1.35.1",
     "vite": "^2.1.5"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "@open-wc/scoped-elements": "^2.0.0-next.4",
     "@rharel/music-note-utils": "^1.0.1",
     "date-fns": "^2.19.0",
+    "gsap": "^3.7.0",
     "hybrids": "^5.1.0",
     "lit-element": "^2.4.0",
     "popmotion": "^9.4.0",

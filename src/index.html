@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weby synths</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.scss" />
+    <link rel="stylesheet" href="./components/AppShell.scss" />
   </head>
   <body>
-    <main-app>
-      <button id="load-synth">test</button>
-      <first-synth></first-synth>
-    </main-app>
-    
+    <!-- main app -->
+    <app-shell>
+      <div id="shell-container" class="app-shell__container">
+        <nav id="shell-sidebar" class="app-shell__sidebar">navigator</nav>
+      </div>
+    </app-shell>
+    <!-- end main app -->
     <script type="module" src="./main.ts"></script>
   </body>
 </html>

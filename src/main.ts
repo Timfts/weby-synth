@@ -1,4 +1,4 @@
-import MainApp from "./components/main-app";
+import AppShell from "./components/AppShell";
 // @ts-ignore
 import init from "./assembly/build/optimized.wasm";
 
@@ -8,4 +8,4 @@ init().then((exports: any) => {
   console.log(times(2,3)) */
 });
 
-window.customElements.define(MainApp.tagName, MainApp);
+window.customElements.define(AppShell.tagName, AppShell);
