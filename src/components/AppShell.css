@@ -1,0 +1,16 @@
+.app-shell__container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.app-shell__sidebar {
+  background-color: aqua;
+  width: 250px;
+  transition: width 0.2s ease;
+}
+
+.app-shell__sidebar--closed {
+  background-color: blue;
+  width: 70px;
+}
