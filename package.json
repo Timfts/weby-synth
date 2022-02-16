@@ -27,7 +27,6 @@
     "vite": "^2.1.5"
   },
   "dependencies": {
-    "@assemblyscript/loader": "^0.18.16",
     "@open-wc/scoped-elements": "^2.0.0-next.4",
     "@rharel/music-note-utils": "^1.0.1",
     "date-fns": "^2.19.0",
@@ -35,7 +34,6 @@
     "hybrids": "^5.4.0",
     "lit-element": "^2.4.0",
     "popmotion": "^9.4.0",
-    "rollup-plugin-assemblyscript": "^2.0.0",
-    "vite-plugin-handlebars": "^1.6.0"
+    "vite-plugin-handlebars": "1.6.0"
   }
 }
