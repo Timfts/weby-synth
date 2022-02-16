@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run clear-dist && vite build",
     "serve": "vite preview",
-    "asbuild": "asc src/assembly/index.ts --target release"
+    "asbuild": "asc src/assembly/index.ts --target release",
+    "clear-dist": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Timfts/weby-synth#readme",
   "devDependencies": {
     "assemblyscript": "^0.18.16",
+    "rimraf": "^3.0.2",
     "sass": "^1.35.1",
     "vite": "^2.1.5"
   },

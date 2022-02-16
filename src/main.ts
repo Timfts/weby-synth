@@ -1,7 +1,8 @@
 import AppShell from "./components/AppShell";
 // @ts-ignore
 import init from "./assembly/build/optimized.wasm";
-import SecondSynth from "./components/synths/second-synth"
+import FirstSynth from "./components/synths/first-synth"
+/* import SecondSynth from "./components/synths/second-synth" */
 
 init().then((exports: any) => {
   const { add, times } = exports;
@@ -9,6 +10,7 @@ init().then((exports: any) => {
   console.log(times(2,3)) */
 });
 
-SecondSynth()
+
 
 window.customElements.define(AppShell.tagName, AppShell);
+window.customElements.define(FirstSynth.tagName, FirstSynth);
